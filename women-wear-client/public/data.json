@@ -1,0 +1,205 @@
+[
+  {
+    "image": "https://i.postimg.cc/rpHDzB9b/imgTops1.jpg",
+    "title": "Ruffled Blouse",
+    "price": 35.99,
+    "ratings": 4.4,
+    "category": "Tops",
+    "description": "Add a touch of elegance to your wardrobe with this ruffled blouse. Perfect for both casual and formal settings, this blouse features delicate ruffle details that add a feminine touch to any outfit. Made from lightweight, breathable fabric, it ensures you stay comfortable throughout the day. Available in multiple colors and sizes, this versatile blouse can be easily paired with skirts or trousers for a chic look. Ideal for office wear or a casual day out, this blouse combines style and comfort effortlessly.\n\n- Delicate ruffle details for a feminine touch\n- Lightweight, breathable fabric for comfort\n- Available in multiple colors and sizes\n- Perfect for pairing with skirts or trousers\n- Suitable for both casual and formal occasions\n- Comfortable fit with a stylish look",
+    "flash_sale": "sale"
+  },
+  {
+    "image": "https://i.postimg.cc/4y6yLmTk/imgTops2.jpg",
+    "title": "Striped Tee",
+    "price": 19.99,
+    "ratings": 4.2,
+    "category": "Tops",
+    "description": "Stay cool and casual with this striped tee. Designed for everyday wear, this classic striped tee is made from soft, high-quality cotton that feels great against the skin. The relaxed fit ensures maximum comfort, making it perfect for a laid-back day. Available in various colors, this versatile tee can be easily paired with jeans or shorts for a casual yet stylish look. Whether you're running errands or just relaxing at home, this striped tee is a wardrobe essential.\n\n- Classic stripe pattern for a timeless look\n- Made from soft, high-quality cotton\n- Relaxed fit for ultimate comfort\n- Available in various colors to suit your style\n- Easy to pair with jeans or shorts\n- Perfect for everyday wear"
+  },
+  {
+    "image": "https://i.postimg.cc/BvpBvtWZ/img-Bottoms1.jpg",
+    "title": "High-Waisted Jeans",
+    "price": 49.99,
+    "ratings": 4.5,
+    "category": "Bottoms",
+    "description": "Flatter your figure with these high-waisted jeans. Perfect for any casual outing, these jeans are designed to provide a comfortable and stylish fit. The high-waisted design enhances your silhouette, while the stretch denim fabric ensures all-day comfort. Available in various washes, these jeans feature classic five-pocket styling and durable construction. Whether you're dressing up or down, these high-waisted jeans are a versatile addition to your wardrobe.\n\n- High-waisted design for a flattering fit\n- Made from stretch denim for comfort\n- Available in various washes to suit your style\n- Features classic five-pocket styling\n- Durable construction for long-lasting wear\n- Perfect for any casual outing"
+  },
+  {
+    "image": "https://i.postimg.cc/QC2pzT7m/img-Bottoms2.jpg",
+    "title": "Pleated Skirt",
+    "price": 39.99,
+    "ratings": 4.3,
+    "category": "Bottoms",
+    "description": "Add a touch of sophistication to your wardrobe with this pleated skirt. Ideal for both work and play, this elegant pleated skirt is made from flowy, comfortable fabric that moves with you. Available in multiple colors, it can be dressed up or down depending on the occasion. Pair it with a blouse for a polished office look or a tee for a more relaxed vibe. The versatile design makes it a must-have for any fashion-forward wardrobe.\n\n- Elegant pleated design for a sophisticated look\n- Made from flowy, comfortable fabric\n- Available in multiple colors to suit your style\n- Suitable for office or casual outings\n- Pairs well with blouses or tees\n- Adds a touch of sophistication to any outfit",
+    "flash_sale": "sale"
+  },
+  {
+    "image": "https://i.postimg.cc/N0d1DCk7/imgGown1.jpg",
+    "title": "Evening Satin Gown",
+    "price": 149.99,
+    "ratings": 4.8,
+    "category": "Gowns",
+    "description": "Turn heads with this stunning evening satin gown. Perfect for formal events, this luxurious gown is crafted from high-quality satin fabric that drapes beautifully. The deep V-neckline and fitted bodice accentuate your figure, while the flowing skirt adds a touch of elegance. Available in classic colors, this gown is designed to make you feel like a star at any gala, wedding, or red carpet event. Pair it with statement jewelry and heels for a truly glamorous look.\n\n- Luxurious satin fabric for a glamorous look\n- Deep V-neckline and fitted bodice to accentuate your figure\n- Flowing skirt adds a touch of elegance\n- Available in classic colors\n- Ideal for galas, weddings, and formal events\n- Designed to make you feel like a star",
+    "flash_sale": "sale"
+  },
+  {
+    "image": "https://i.postimg.cc/0Qr7BGtg/imgGown2.jpg",
+    "title": "Embroidered Tulle Gown",
+    "price": 179.99,
+    "ratings": 4.7,
+    "category": "Gowns",
+    "description": "Feel like royalty in this embroidered tulle gown. Perfect for special occasions, this gown features intricate embroidery on delicate tulle fabric, creating a stunning look. The sweetheart neckline and fitted bodice enhance your silhouette, while the flared skirt with layers of tulle adds volume and movement. Available in pastel shades, this gown is ideal for proms, weddings, and other formal events. Complete the look with elegant accessories and heels for a truly memorable outfit.\n\n- Intricate embroidery on tulle fabric for a regal look\n- Sweetheart neckline and fitted bodice to enhance your silhouette\n- Flared skirt with layers of tulle for added volume\n- Available in pastel shades\n- Ideal for proms, weddings, and formal events\n- Creates a stunning and memorable outfit"
+  },
+  {
+    "image": "https://i.postimg.cc/fWpjy6Pd/img-Casual1.jpg",
+    "title": "Denim Jacket",
+    "price": 59.99,
+    "ratings": 4.5,
+    "category": "Casual",
+    "description": "Complete your casual look with this denim jacket. Perfect for layering, this classic denim jacket is made from durable fabric that withstands everyday wear. The button-front closure and traditional design make it a versatile piece that can be worn with almost anything. Available in various washes, it adds a touch of effortless style to any outfit. Whether you're heading out for a weekend adventure or a casual day out, this denim jacket is a must-have addition to your wardrobe.\n\n- Classic denim design for versatile styling\n- Made from durable fabric for everyday wear\n- Button-front closure for easy layering\n- Available in various washes to suit your style\n- Ideal for pairing with casual outfits\n- Adds a touch of effortless style to any look"
+  },
+  {
+    "image": "https://i.postimg.cc/28WdZ0pK/img-Casual2.jpg",
+    "title": "Jogger Pants",
+    "price": 34.99,
+    "ratings": 4.3,
+    "category": "Casual",
+    "description": "Stay comfortable and stylish with these jogger pants. Perfect for lounging or running errands, these joggers are made from soft and stretchy fabric that moves with you. The elastic waistband with drawstring ensures a secure fit, while the side pockets add functionality. Available in various colors, these jogger pants can be paired with a casual tee or hoodie for a laid-back look. Whether you're relaxing at home or out and about, these joggers offer the perfect blend of comfort and style.\n\n- Soft and stretchy fabric for ultimate comfort\n- Elastic waistband with drawstring for a secure fit\n- Available in various colors to suit your style\n- Features side pockets for added functionality\n- Perfect for lounging or running errands\n- Offers a laid-back and stylish look",
+    "flash_sale": "sale"
+  },
+  {
+    "image": "https://i.postimg.cc/KcwDCVS0/img-Formal1.jpg",
+    "title": "Tailored Blazer",
+    "price": 79.99,
+    "ratings": 4.6,
+    "category": "Formal",
+    "description": "Elevate your professional wardrobe with this tailored blazer. Perfect for office and formal meetings, this blazer features a sharp, tailored fit that adds a polished look to any outfit. Made from high-quality fabric, it ensures both comfort and durability. The notched lapels and button closure add classic details, while the available classic colors make it easy to pair with trousers or skirts. Whether you're attending a business meeting or a formal event, this blazer is an essential addition to your wardrobe.\n\n- Sharp, tailored fit for a polished look\n- Made from high-quality fabric for comfort and durability\n- Features notched lapels and button closure\n- Available in classic colors to suit your style\n- Ideal for pairing with trousers or skirts\n- Perfect for office and formal meetings",
+    "flash_sale": "sale"
+  },
+  {
+    "image": "https://i.postimg.cc/HkC4kyL5/img-Formal2.jpg",
+    "title": "Pencil Skirt",
+    "price": 44.99,
+    "ratings": 4.5,
+    "category": "Formal",
+    "description": "Achieve a polished look with this pencil skirt. Perfect for work and formal occasions, this skirt features a classic pencil silhouette that flatters your figure. Made from stretch fabric, it ensures a comfortable fit while maintaining a sleek appearance. Available in multiple colors, this skirt can be easily paired with blouses and blazers for a professional look. The back slit adds ease of movement, making it a practical yet stylish addition to your wardrobe.\n\n- Classic pencil silhouette for a flattering fit\n- Made from stretch fabric for comfort\n- Available in multiple colors to suit your style\n- Features a back slit for ease of movement\n- Pairs well with blouses and blazers\n- Perfect for work and formal occasions"
+  },
+  {
+    "image": "https://i.postimg.cc/Nj4TGCSq/img-Outer1.jpg",
+    "title": "Trench Coat",
+    "price": 99.99,
+    "ratings": 4.7,
+    "category": "Outerwear",
+    "description": "Stay stylish and warm with this trench coat. Perfect for transitional weather, this classic trench coat is made from water-resistant fabric that keeps you dry and comfortable. The coat features a belt and double-breasted front for a timeless look, while the available neutral colors make it easy to pair with any outfit. Whether you're heading to the office or out for a weekend stroll, this trench coat is a versatile and chic addition to your outerwear collection.\n\n- Classic trench design for timeless style\n- Made from water-resistant fabric for comfort\n- Features a belt and double-breasted front\n- Available in neutral colors to suit your wardrobe\n- Ideal for transitional weather\n- Perfect for layering over any outfit"
+  },
+  {
+    "image": "https://i.postimg.cc/5N5QpkxY/img-Outer2.jpg",
+    "title": "Puffer Jacket",
+    "price": 89.99,
+    "ratings": 4.5,
+    "category": "Outerwear",
+    "description": "Keep cozy with this puffer jacket. Perfect for cold weather, this jacket is insulated for maximum warmth without the bulk. The hood and zip closure provide extra protection against the elements, while the lightweight design ensures ease of movement. Available in various colors, this puffer jacket is both stylish and functional, making it ideal for winter activities and casual wear. Stay warm and stylish all season long with this essential outerwear piece.\n\n- Insulated for maximum warmth\n- Features a hood and zip closure for added protection\n- Available in various colors to suit your style\n- Lightweight yet warm for ease of movement\n- Ideal for winter activities and casual wear\n- Stay cozy and stylish all season long"
+  },
+  {
+    "image": "https://i.postimg.cc/gkKr3XD3/imgTops3.gif",
+    "title": "Boho Floral Blouse",
+    "price": 29.99,
+    "ratings": 4.3,
+    "category": "Tops",
+    "description": "Embrace a bohemian style with this floral blouse. Perfect for casual days and relaxed outings, this blouse features a beautiful floral print that adds a touch of nature to your look. Made from lightweight, breathable fabric, it ensures you stay comfortable all day long. The loose fit and flowy design make it easy to pair with jeans or skirts for a chic and effortless look. Whether you're at a festival or a picnic, this boho floral blouse is a great addition to your wardrobe.\n\n- Beautiful floral print for a bohemian style\n- Lightweight, breathable fabric for comfort\n- Loose fit and flowy design\n- Easy to pair with jeans or skirts\n- Ideal for casual days and relaxed outings\n- Adds a touch of nature to your look"
+  },
+  {
+    "image": "https://i.postimg.cc/RVmN3QcM/imgTops4.jpg",
+    "title": "Classic White Shirt",
+    "price": 24.99,
+    "ratings": 4.5,
+    "category": "Tops",
+    "description": "Upgrade your basics with this classic white shirt. Perfect for both professional and casual wear, this shirt features a clean and timeless design that pairs well with anything. Made from high-quality cotton, it offers a comfortable fit and easy maintenance. The button-down front and crisp collar give it a polished look, while the relaxed fit ensures comfort throughout the day. This versatile shirt is a must-have in any wardrobe, providing endless styling options.\n\n- Clean and timeless design\n- Made from high-quality cotton\n- Button-down front and crisp collar\n- Relaxed fit for comfort\n- Suitable for professional and casual wear\n- Provides endless styling options",
+    "flash_sale": "sale"
+  },
+  {
+    "image": "https://i.postimg.cc/BnxCdMMK/img-Bottoms3.jpg",
+    "title": "Cropped Trousers",
+    "price": 39.99,
+    "ratings": 4.4,
+    "category": "Bottoms",
+    "description": "Step out in style with these cropped trousers. Perfect for both work and play, these trousers feature a sleek, cropped design that adds a modern touch to any outfit. Made from a blend of high-quality fabrics, they offer a comfortable fit and a polished look. Available in various colors, these trousers can be paired with blouses, tees, or blazers for a versatile and chic look. Whether you're heading to the office or a casual outing, these cropped trousers are a fashionable addition to your wardrobe.\n\n- Sleek, cropped design for a modern look\n- Made from a blend of high-quality fabrics\n- Comfortable fit and polished appearance\n- Available in various colors\n- Versatile styling options\n- Perfect for work and casual outings"
+  },
+  {
+    "image": "https://i.postimg.cc/zvbCpjy3/img-Bottoms4.jpg",
+    "title": "Maxi Skirt",
+    "price": 49.99,
+    "ratings": 4.6,
+    "category": "Bottoms",
+    "description": "Elevate your style with this elegant maxi skirt. Perfect for both casual and formal occasions, this skirt features a flowy, floor-length design that adds a touch of sophistication to any outfit. Made from lightweight, breathable fabric, it ensures comfort and ease of movement. Available in multiple colors and patterns, this maxi skirt can be paired with a variety of tops for different looks. Whether you're attending a special event or enjoying a day out, this maxi skirt is a versatile and stylish addition to your wardrobe.\n\n- Flowy, floor-length design\n- Made from lightweight, breathable fabric\n- Available in multiple colors and patterns\n- Easy to pair with different tops\n- Suitable for casual and formal occasions\n- Adds a touch of sophistication to any outfit",
+    "flash_sale": "sale"
+  },
+  {
+    "image": "https://i.postimg.cc/g2NXbXLG/imgGown3.jpg",
+    "title": "Sequin Party Gown",
+    "price": 199.99,
+    "ratings": 4.9,
+    "category": "Gowns",
+    "description": "Shine bright at your next event with this sequin party gown. Perfect for special occasions, this gown features all-over sequin detailing that catches the light beautifully. The fitted bodice and A-line skirt create a flattering silhouette, while the deep V-neckline adds a touch of allure. Available in stunning colors, this gown is designed to make you stand out. Pair it with elegant accessories and heels for a show-stopping look that's sure to turn heads.\n\n- All-over sequin detailing\n- Fitted bodice and A-line skirt\n- Deep V-neckline for added allure\n- Available in stunning colors\n- Perfect for special occasions\n- Designed to make you stand out",
+    "flash_sale": "sale"
+  },
+  {
+    "image": "https://i.postimg.cc/wxCDwmLP/imgGown4.jpg",
+    "title": "Lace Evening Gown",
+    "price": 189.99,
+    "ratings": 4.8,
+    "category": "Gowns",
+    "description": "Exude elegance with this lace evening gown. Perfect for formal events, this gown features intricate lace detailing that adds a touch of romance to your look. The fitted bodice and mermaid skirt create a flattering silhouette, while the open back adds a hint of drama. Available in classic and bold colors, this gown is designed to make a statement. Pair it with simple jewelry and heels for a sophisticated ensemble that's perfect for any gala or wedding.\n\n- Intricate lace detailing\n- Fitted bodice and mermaid skirt\n- Open back for added drama\n- Available in classic and bold colors\n- Perfect for formal events\n- Designed to make a statement"
+  },
+  {
+    "image": "https://i.postimg.cc/q712TYnz/img-Casual3.jpg",
+    "title": "Graphic Hoodie",
+    "price": 49.99,
+    "ratings": 4.4,
+    "category": "Casual",
+    "description": "Stay cozy and stylish with this graphic hoodie. Perfect for casual wear, this hoodie features a trendy graphic print that adds a touch of personality to your outfit. Made from soft, high-quality fabric, it offers warmth and comfort. The adjustable drawstring hood and kangaroo pocket provide added functionality, while the relaxed fit ensures a laid-back look. Available in various designs, this hoodie is a must-have for your casual wardrobe.\n\n- Trendy graphic print\n- Made from soft, high-quality fabric\n- Adjustable drawstring hood\n- Kangaroo pocket for added functionality\n- Relaxed fit for a laid-back look\n- Available in various designs",
+    "flash_sale": "sale"
+  },
+  {
+    "image": "https://i.postimg.cc/ryK9nTbd/img-Casual4.jpg",
+    "title": "Summer Maxi Dress",
+    "price": 59.99,
+    "ratings": 4.5,
+    "category": "Casual",
+    "description": "Enjoy sunny days with this summer maxi dress. Perfect for casual outings and beach trips, this dress features a flowy, lightweight design that keeps you cool and comfortable. The adjustable spaghetti straps and elastic waistband ensure a perfect fit, while the vibrant patterns add a touch of fun to your look. Available in various colors and prints, this maxi dress is easy to style with sandals and a sunhat for a chic summer outfit.\n\n- Flowy, lightweight design\n- Adjustable spaghetti straps\n- Elastic waistband for a perfect fit\n- Available in various colors and prints\n- Ideal for casual outings and beach trips\n- Adds a touch of fun to your look"
+  },
+  {
+    "image": "https://i.postimg.cc/3w8XgQmx/img-Formal3.jpg",
+    "title": "Silk Blouse",
+    "price": 69.99,
+    "ratings": 4.7,
+    "category": "Formal",
+    "description": "Elevate your office wardrobe with this luxurious silk blouse. Perfect for professional settings, this blouse features a smooth, silk fabric that exudes elegance. The tailored fit and button-down front add a polished look, while the subtle sheen of the silk enhances your overall outfit. Available in classic colors, this blouse can be paired with skirts or trousers for a sophisticated ensemble. Whether you're attending a meeting or a formal event, this silk blouse is a stylish addition to your wardrobe.\n\n- Smooth, luxurious silk fabric\n- Tailored fit for a polished look\n- Button-down front\n- Available in classic colors\n- Ideal for professional settings\n- Exudes elegance and sophistication",
+    "flash_sale": "sale"
+  },
+  {
+    "image": "https://i.postimg.cc/ncmGxknp/img-Formal4.jpg",
+    "title": "Wide-Leg Trousers",
+    "price": 54.99,
+    "ratings": 4.6,
+    "category": "Formal",
+    "description": "Make a statement with these wide-leg trousers. Perfect for office wear and formal events, these trousers feature a high-waisted design and wide-leg silhouette that create a chic and sophisticated look. Made from high-quality fabric, they offer a comfortable fit and excellent drape. Available in classic colors, these trousers can be paired with blouses or blazers for a polished ensemble. Whether you're at work or attending a special event, these wide-leg trousers add a touch of elegance to your outfit.\n\n- High-waisted design and wide-leg silhouette\n- Made from high-quality fabric\n- Comfortable fit and excellent drape\n- Available in classic colors\n- Ideal for office wear and formal events\n- Adds a touch of elegance to your outfit"
+  },
+  {
+    "image": "https://i.postimg.cc/xCbcm6xd/img-Outer3.jpg",
+    "title": "Wool Coat",
+    "price": 129.99,
+    "ratings": 4.7,
+    "category": "Outerwear",
+    "description": "Stay warm and stylish with this wool coat. Perfect for cold weather, this coat is made from premium wool fabric that offers excellent insulation. The tailored fit and classic design make it a versatile piece that can be worn over any outfit. The coat features a notched collar, button closure, and side pockets for added functionality. Available in neutral colors, this wool coat is a timeless addition to your winter wardrobe.\n\n- Made from premium wool fabric\n- Tailored fit and classic design\n- Notched collar and button closure\n- Side pockets for added functionality\n- Available in neutral colors\n- Ideal for cold weather and versatile styling"
+  },
+  {
+    "image": "https://i.postimg.cc/hGvJDDVT/img-Outer4.jpg",
+    "title": "Faux Fur Jacket",
+    "price": 109.99,
+    "ratings": 4.6,
+    "category": "Outerwear",
+    "description": "Add a touch of luxury to your wardrobe with this faux fur jacket. Perfect for both casual and formal wear, this jacket features a plush faux fur exterior that feels incredibly soft. The open-front design and relaxed fit make it easy to layer over any outfit, while the available neutral colors ensure versatility. Whether you're dressing up for a night out or adding warmth to your everyday look, this faux fur jacket is a stylish and cozy addition to your collection.\n\n- Plush faux fur exterior for a luxurious feel\n- Open-front design for easy layering\n- Relaxed fit for comfort\n- Available in neutral colors\n- Ideal for both casual and formal wear\n- Adds warmth and style to any outfit",
+    "flash_sale": "sale"
+  }
+]

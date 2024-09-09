@@ -1,0 +1,11 @@
+.VideoBanner {
+  background-image: linear-gradient(
+      90deg,
+      #080808 0%,
+      rgba(18, 16, 15, 0.128) 100%
+    ),
+    url("../../../../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
