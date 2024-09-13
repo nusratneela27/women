@@ -6,7 +6,10 @@ import Link from "next/link";
 const ProductCard = ({ product }: { product: Products }) => {
   return (
     <div>
-      <Card shadow="md">
+      <Card
+        shadow="md"
+        className="transition-transform transform hover:scale-105 hover:shadow-lg"
+      >
         <Image
           alt={product.title}
           src={product.image}

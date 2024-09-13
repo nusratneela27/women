@@ -76,6 +76,7 @@ const RegisterUI = () => {
                 Submit
               </Button>
             </form>
+            {/* Google sign in */}
             <div
               onClick={() =>
                 signIn("google", {

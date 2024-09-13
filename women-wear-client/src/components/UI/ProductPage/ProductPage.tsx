@@ -61,7 +61,7 @@ const ProductPage = () => {
               exclusive designs and premium quality clothing.
             </p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
-              {products.slice(0, 12).map((product: Products) => (
+              {products.slice(0, 24).map((product: Products) => (
                 <ProductCard key={product._id} product={product}></ProductCard>
               ))}
             </div>

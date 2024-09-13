@@ -68,6 +68,7 @@ const Category = async () => {
             isFooterBlurred
             isPressable
             onPress={() => handleProductClick(product.category)}
+            className="transition-transform transform hover:scale-105 hover:shadow-lg" 
           >
             <Image
               alt={product.title}

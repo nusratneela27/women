@@ -55,19 +55,7 @@ const SideBar = () => {
         }  md:translate-x-0 transition duration-200 ease-in-out`}
       >
         <div className="space-y-5 md:pe-10">
-          <div className="border rounded-lg shadow-md p-5 bg-amber-50">
-            <div className="flex flex-col space-y-2">
-              <h1 className="text-2xl border-s-3 border-stone-950">
-                <span className="ps-5">Price Range</span>
-              </h1>
-              {priceRangeOptions.map((option: Option) => (
-                <Checkbox key={option.value} color="secondary">
-                  {option.label}
-                </Checkbox>
-              ))}
-            </div>
-          </div>
-          <div className="border rounded-lg shadow-md p-5 bg-amber-50">
+        <div className="border rounded-lg shadow-md p-5 bg-amber-50">
             <div className="flex flex-col space-y-2">
               <h1 className="text-2xl border-s-3 border-stone-950">
                 <span className="ps-5">Categories</span>
@@ -91,6 +79,19 @@ const SideBar = () => {
           <div className="border rounded-lg shadow-md p-5 bg-amber-50">
             <div className="flex flex-col space-y-2">
               <h1 className="text-2xl border-s-3 border-stone-950">
+                <span className="ps-5">Price Range</span>
+              </h1>
+              {priceRangeOptions.map((option: Option) => (
+                <Checkbox key={option.value} color="secondary">
+                  {option.label}
+                </Checkbox>
+              ))}
+            </div>
+          </div>
+          
+          {/* <div className="border rounded-lg shadow-md p-5 bg-amber-50">
+            <div className="flex flex-col space-y-2">
+              <h1 className="text-2xl border-s-3 border-stone-950">
                 <span className="ps-5">Ratings</span>
               </h1>
               {ratingOptions.map((option: Option) => (
@@ -99,7 +100,7 @@ const SideBar = () => {
                 </Checkbox>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

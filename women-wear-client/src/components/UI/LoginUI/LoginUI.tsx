@@ -71,6 +71,7 @@ const LoginUI = () => {
               Submit
             </Button>
           </form>
+          {/* Google sign in */}
           <div
             onClick={() =>
               signIn("google", {
@@ -84,6 +85,7 @@ const LoginUI = () => {
             <FcGoogle size={32} />
             <p>Continue with Google</p>
           </div>
+
           <div className="flex flex-col md:flex-row justify-around pt-9">
             <p>
               Back To{" "}

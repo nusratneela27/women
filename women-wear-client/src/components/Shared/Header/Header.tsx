@@ -41,9 +41,9 @@ const Header = ({ session }: { session: UserProps | null }) => {
 
   const menuItems: MenuItem[] = [
     { label: "Home", href: "/" },
-    { label: "Categories", href: "/categories" },
-    { label: "Women Products", href: "/women-wear" },
+    { label: "Categories", href: "/women-wear" },
     { label: "Flash Sale", href: "/flash-sale" },
+    { label: "Contact Us", href: "/contact" },
     ...(session?.user ? [{ label: "Dashboard", href: "/dashboard" }] : []),
   ];
 

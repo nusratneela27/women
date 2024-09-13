@@ -23,9 +23,9 @@ const PopularProducts = async () => {
   const products = await res.json();
 
   return (
-    <div className="relative py-56">
+    <div className="relative py-48">
       <div
-        className="absolute  inset-0 bg-gray-200"
+        className="absolute inset-0 bg-gray-200"
         style={{
           clipPath: "polygon(0 0, 100% 25%, 100% 100%, 0 75%)",
         }}
