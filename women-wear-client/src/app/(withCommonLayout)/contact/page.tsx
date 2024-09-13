@@ -1,5 +1,6 @@
 import Image from "next/image";
 import banner from "../../../assets/background.jpg";
+import { Button, Input, Textarea } from "@nextui-org/react";
 
 export const metadata = {
   title: "Contact",
@@ -21,7 +22,7 @@ const contact = () => {
           </h1>
         </div>
       </div>
-        <div className="flex flex-col w-full justify-center items-center m-auto py-20">
+      <div className="flex flex-col w-full justify-center items-center m-auto py-20">
         <div className="flex flex-col lg:flex-row lg:space-x-6 space-y-6 lg:space-y-0 w-full max-w-4xl p-8 sm:p-12 rounded-xl shadow-lg overflow-hidden bg-amber-50">
           <div className="flex flex-col justify-around pb-20">
             <div>
@@ -93,60 +94,16 @@ const contact = () => {
             <div className="absolute z-0 w-40 h-40 bg-neutral-500 rounded-full -left-28 -bottom-16"></div>
             <div className="relative z-10  rounded-xl shadow-lg p-8  lg:w-80">
               <form className="flex flex-col space-y-4">
-                <div>
-                  <label htmlFor="name" className="text-sm">
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Name"
-                    required
-                    className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-slate-300"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="text-sm">
-                    Email
-                  </label>
-                  <input
-                    type="email"
-                    name="email"
-                    required
-                    placeholder="Email"
-                    className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-slate-300"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="subject" className="text-sm">
-                    Subject
-                  </label>
-                  <input
-                    type="text"
-                    name="subject"
-                    placeholder="Subject"
-                    className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-slate-300"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="message" className="text-sm">
-                    Message
-                  </label>
-                  <textarea
-                    name="message"
-                    placeholder="Message"
-                    required
-                    className="ring-1 ring-gray-300 mt-2 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-slate-300"
-                  ></textarea>
-                </div>
-                <button className="d-flex flex-row items-center justify-between gap-2 self-end bg-neutral-500 font-bold rounded-lg px-6 py-4 uppercase text-sm text-white">
-                  Send
-                </button>
+                <Input variant="underlined" type="text" label="Name" />
+                <Input variant="underlined" type="email" label="Email" />
+                <Input variant="underlined" type="text" label="Subject" />
+                <Textarea variant="underlined" type="text" label="Message"  />
+                <Button className="bg-gradient-to-tr from-neutral-300 to-neutral-800 text-white shadow-lg">Send</Button>
               </form>
             </div>
           </div>
         </div>
-        </div>
+      </div>
     </div>
   );
 };
