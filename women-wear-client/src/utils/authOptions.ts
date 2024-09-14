@@ -1,5 +1,4 @@
 import { NextAuthOptions } from "next-auth"
-import GoogleProvider from "next-auth/providers/google";
 
 export const authOptions: NextAuthOptions = {
 
@@ -9,5 +8,4 @@ export const authOptions: NextAuthOptions = {
     pages: {
         signIn: "/login",
     },
-    secret: process.env.NEXTAUTH_SECRET,
 }

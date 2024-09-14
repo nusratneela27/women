@@ -42,11 +42,8 @@ export const NavbarWrapper = ({ children }: Props) => {
             placeholder="Search Products..."
           />
         </NavbarContent>
-        <NavbarContent
-          justify="end"
-          className="w-fit data-[justify=end]:flex-grow-0"
-        >
-          {userInfo ? "name" : ""}
+        <NavbarContent justify="end">
+          <p>Email: {userInfo.email}</p>
         </NavbarContent>
       </Navbar>
       {children}

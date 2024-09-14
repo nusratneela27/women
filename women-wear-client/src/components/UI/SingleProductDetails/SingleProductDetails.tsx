@@ -40,6 +40,12 @@ const SingleProductDetails = ({ product }: { product: Products }) => {
                 Delivers in: 3-7 Working Days Shipping & Return
               </p>
             </div>
+            <Button
+              radius="full"
+              className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg px-10"
+            >
+              Add To Cart
+            </Button>
           </div>
         </div>
       </Contain>
