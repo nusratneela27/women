@@ -4,4 +4,4 @@ This project is a Women Wear Clothing website built using Next.js, aimed at show
 
 ### Live link
 
-- [women-wear](https://assignment-8-opal-zeta.vercel.app/)
+- [women-wear](women-wear-client.vercel.app/)
