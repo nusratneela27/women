@@ -1,4 +1,5 @@
 "use client";
+import { getUserInfo } from "@/services/auth.services";
 import { Input, Navbar, NavbarContent } from "@nextui-org/react";
 import React from "react";
 import { LuSearchCheck } from "react-icons/lu";
@@ -11,6 +12,8 @@ interface Props {
 export const NavbarWrapper = ({ children }: Props) => {
   //   const { collapsed, setCollapsed } = useSidebarContext();
   //   console.log(collapsed);
+  const userInfo = getUserInfo();
+
   return (
     <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden ">
       <Navbar
@@ -36,13 +39,15 @@ export const NavbarWrapper = ({ children }: Props) => {
               input: "w-full",
               mainWrapper: "w-full",
             }}
-            placeholder="Search..."
+            placeholder="Search Products..."
           />
         </NavbarContent>
         <NavbarContent
           justify="end"
           className="w-fit data-[justify=end]:flex-grow-0"
-        ></NavbarContent>
+        >
+          {userInfo ? "name" : ""}
+        </NavbarContent>
       </Navbar>
       {children}
     </div>

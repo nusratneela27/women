@@ -1,25 +1,32 @@
 "use client";
 
 // icons
-import { BiHome, BiPurchaseTag } from "react-icons/bi";
 import { IoHomeOutline } from "react-icons/io5";
 import { FaBox } from "react-icons/fa6";
-import { MdOutlinePayment, MdReport } from "react-icons/md";
+import { MdAddToPhotos } from "react-icons/md";
 
 // import { useSidebarContext } from "../../layout/layout-context";
-import { CollapseItems } from "./collapse-items";
+import { FaUsers } from "react-icons/fa";
 import { SidebarItem } from "./sidebar-item";
 import { SidebarMenu } from "./sidebar-menu";
 import { Sidebar } from "./sidebar.styles";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import Image from "next/image";
 import logoIcon from "@/assets/logo.png";
+import { removeUser } from "@/services/auth.services";
+import { Button } from "@nextui-org/react";
 
 export const AdminSidebarWrapper = () => {
   const pathname = usePathname();
+  const router = useRouter();
   //   const { collapsed } = useSidebarContext();
+
+  const handleLogout = () => {
+    removeUser();
+    router.push("/")
+  };
 
   return (
     <aside className="h-screen z-[20] sticky top-0">
@@ -41,40 +48,36 @@ export const AdminSidebarWrapper = () => {
             <SidebarItem
               title="Home"
               icon={<IoHomeOutline />}
-              isActive={pathname === "/dashboard"}
-              href="/dashboard"
+              isActive={pathname === "/dashboard/admin"}
+              href="/dashboard/admin"
             />
             <SidebarMenu title="Main Menu">
               <SidebarItem
-                isActive={pathname === "/dashboard/all-products"}
+                isActive={pathname === "/dashboard/admin/all-products"}
                 title="All Products"
                 icon={<FaBox />}
+                href="/dashboard/admin/all-products"
+              />
+              <SidebarItem
+                isActive={pathname === "/dashboard/all-products"}
+                title="Add Products"
+                icon={<MdAddToPhotos  />}
                 href="/dashboard/all-products"
               />
               <SidebarItem
-                isActive={pathname === "/dashboard/payments"}
-                title="Users"
-                icon={<MdOutlinePayment />}
-              />
-              <SidebarItem
-                isActive={pathname === "/reports"}
-                title="Reports"
-                icon={<MdReport />}
-              />
-              <CollapseItems
-                icon={<BiPurchaseTag />}
-                items={["Banks Accounts", "Credit Cards"]}
-                title="Purchase history"
+                isActive={pathname === "/dashboard/admin/all-users"}
+                title="All Users"
+                icon={<FaUsers  />}
+                href="/dashboard/admin/all-users"
               />
             </SidebarMenu>
 
-            <SidebarMenu title="Updates">
-              <SidebarItem
-                isActive={pathname === "/changelog"}
-                title="Changelog"
-                icon={<BiHome />}
-              />
-            </SidebarMenu>
+            <Button
+              onClick={handleLogout}
+              className="bg-gradient-to-tr from-pink-200 to-yellow-200 shadow-lg"
+            >
+              Logout
+            </Button>
           </div>
         </div>
       </div>

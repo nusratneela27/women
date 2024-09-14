@@ -90,7 +90,7 @@ const Category = async () => {
           radius="full"
           className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg px-10"
         >
-          <Link href="categories">View All</Link>
+          <Link href="women-wear">View All</Link>
         </Button>
       </div>
     </div>

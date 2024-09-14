@@ -85,6 +85,11 @@ async function run() {
             });
         })
 
+         // Get All Users
+         app.get("/users", async (req, res) => {
+            const result = await userCollection.find().toArray()
+            res.send(result)
+        })
 
         // Get All Products
         app.get("/women-wear", async (req, res) => {

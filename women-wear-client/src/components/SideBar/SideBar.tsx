@@ -55,7 +55,8 @@ const SideBar = () => {
         }  md:translate-x-0 transition duration-200 ease-in-out`}
       >
         <div className="space-y-5 md:pe-10">
-        <div className="border rounded-lg shadow-md p-5 bg-amber-50">
+          {/* Categories */}
+          <div className="border rounded-lg shadow-md p-5 bg-amber-50">
             <div className="flex flex-col space-y-2">
               <h1 className="text-2xl border-s-3 border-stone-950">
                 <span className="ps-5">Categories</span>
@@ -76,6 +77,8 @@ const SideBar = () => {
               ))}
             </div>
           </div>
+
+          {/* Price Range */}
           <div className="border rounded-lg shadow-md p-5 bg-amber-50">
             <div className="flex flex-col space-y-2">
               <h1 className="text-2xl border-s-3 border-stone-950">
@@ -88,7 +91,8 @@ const SideBar = () => {
               ))}
             </div>
           </div>
-          
+
+          {/* Ratings */}
           {/* <div className="border rounded-lg shadow-md p-5 bg-amber-50">
             <div className="flex flex-col space-y-2">
               <h1 className="text-2xl border-s-3 border-stone-950">

@@ -6,8 +6,6 @@ import { Button, Input } from "@nextui-org/react";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
 import { UserData } from "@/types";
-import { FcGoogle } from "react-icons/fc";
-import { signIn } from "next-auth/react";
 import toast from "react-hot-toast";
 import { useRouter } from "next/navigation";
 import { registerUser } from "@/services/actions/registerUser";
@@ -28,7 +26,7 @@ const RegisterUI = () => {
       }
       // console.log(res);
     } catch (err: any) {
-      console.log(err.message);
+      // console.log(err.message);
       throw new Error(err.message);
     }
   };
@@ -76,20 +74,7 @@ const RegisterUI = () => {
                 Submit
               </Button>
             </form>
-            {/* Google sign in */}
-            <div
-              onClick={() =>
-                signIn("google", {
-                  callbackUrl: "http://localhost:3000/dashboard",
-                  // callbackUrl: "https://assignment-8-opal-zeta.vercel.app/dashboard",
-                  // callbackUrl: `${process.env.NEXT_CALLBACK_URL}/dashboard`,
-                })
-              }
-              className="flex justify-center items-center space-x-2 border m-3 p-2 border-gray-300 hover:bg-slate-50 rounded-3xl cursor-pointer w-11/12"
-            >
-              <FcGoogle size={32} />
-              <p>Continue with Google</p>
-            </div>
+
             <div className="flex flex-col md:flex-row justify-around pt-9">
               <p>
                 Back To{" "}

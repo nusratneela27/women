@@ -1,5 +1,5 @@
 import { NavbarWrapper } from "@/app/(withDashboardLayout)/components/DashboardNavbar/dashboardNavbar";
-import { AdminSidebarWrapper } from "@/app/(withDashboardLayout)/components/dashboardSidebar/AdminSidebar";
+import { AdminSidebarWrapper } from "@/app/(withDashboardLayout)/components/DashboardSidebar/AdminSidebar";
 
 export default function AdminLayout({
   children,
